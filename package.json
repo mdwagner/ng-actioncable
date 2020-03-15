@@ -1,0 +1,38 @@
+{
+  "name": "ng-actioncable",
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": "Michael Wagner",
+  "description": "Integration for ActionCable and AngularJS applications",
+  "main": "dist/index.js",
+  "module": "dist/ng-actioncable.esm.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "test": "tsdx test",
+    "prepare": "tsdx build"
+  },
+  "devDependencies": {
+    "@types/actioncable": "^0.0.2",
+    "@types/angular": "^1.6.45",
+    "@types/angular-mocks": "^1.5.11",
+    "@types/jest": "^25.1.4",
+    "actioncable": "~5.2.1",
+    "angular": "^1.5.10",
+    "angular-mocks": "^1.5.10",
+    "husky": "^4.2.3",
+    "rxjs": "^6.4.0",
+    "tsdx": "^0.12.3",
+    "tslib": "^1.11.1",
+    "typescript": "^3.8.3"
+  },
+  "peerDependencies": {
+    "actioncable": "~5.2.1",
+    "angular": "^1.5.10",
+    "rxjs": "^6.4.0"
+  }
+}
